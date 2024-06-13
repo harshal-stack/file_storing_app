@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200427115420_initial.cs" />
+    <Compile Remove="Migrations\20200427115420_initial.Designer.cs" />
+    <Compile Remove="Migrations\20200427161740_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200427161740_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200428045243_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200428045243_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200428045549_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200428045549_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200428061158_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200428061158_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200428160149_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200428160149_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200428160455_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200428160455_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200428162921_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200428162921_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200428163220_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200428163220_InitialCreate.Designer.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.IO.Abstractions" Version="11.0.7" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.1.2" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="DataStorage\" />
+    <Folder Include="DataStorage\61c27c9f-0e7c-4a1d-8bed-940ce06d68e4\" />
+  </ItemGroup>
+
+</Project>
